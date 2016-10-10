@@ -81,7 +81,7 @@ public class Jogo {
 		}
 
 		for (int i = 0; i < 2; i++) {
-			estrelas[i] = r.nextInt(11) + 1;
+			estrelas[i] = r.nextInt(12) + 1;
 			for (int j = 0; j < i; j++) {
 				if (estrelas[i] == estrelas[j]) {
 					i--;
